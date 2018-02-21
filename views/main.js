@@ -1,5 +1,7 @@
+var css = require('sheetify')
 var html = require('choo/html')
 
+css('./main.css')
 var TITLE = '🚂🚋🚋'
 
 module.exports = view

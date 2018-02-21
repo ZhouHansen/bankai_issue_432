@@ -1,17 +1,11 @@
 # bankai_issue_432
-A very cute app
 
-## Routes
-Route              | File               | Description                     |
--------------------|--------------------|---------------------------------|
-`/`              | `views/main.js`  | The main view
-`/*`             | `views/404.js`   | Display unhandled routes
+### issue
+modify css file, bankai start does not watch.
 
-## Commands
-Command                | Description                                      |
------------------------|--------------------------------------------------|
-`$ npm start`        | Start the development server
-`$ npm test`         | Lint, validate deps & run tests
-`$ npm run build`    | Compile all files into `dist/`
-`$ npm run create`   | Generate a scaffold file
-`$ npm run inspect`  | Inspect the bundle's dependencies
+### Repoduce steps:
+
+1. clone this repo
+2. npm install
+3. npm run start
+4. modify views/main.css
